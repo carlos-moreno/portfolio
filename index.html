@@ -27,6 +27,7 @@
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link href="assets/lightbox2-2.11.1/dist/css/lightbox.css" rel="stylesheet" />
 
     <!-- Calculate my age -->
     <script>
@@ -61,7 +62,7 @@
             <div class="primary col-lg-8 col-12">
                 <section class="about section">
                     <div class="section-inner">
-                        <h2 class="heading">Sobre Me</h2>
+                        <h2 class="heading">Sobre Mim</h2>
                         <div class="content">
                             <p align="justify">Olá, meu nome é Carlos Augusto Moreno Ribeiro Junior, sou formado em Sistemas de Informação pela Faculdade META,
                               tenho <script type="text/javascript">document.write(age())</script> anos, onde 12 deles trabalhando na área de TI, comecei atuando pela parte de manutenção e fui ampliando os conhecimentos até chegar a carreira de desenvolvedor.
@@ -95,13 +96,23 @@
                             </div><!--//item-->
                             <hr class="divider" />
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                <a class="col-md-4 col-12 " href="assets/images/projects/to-do.png" data-lightbox="To-Do List" data-title="To-Do List.">
+                                   <img class="example-image" style="width: 163.33px; height: 59.73px" src="assets/images/projects/to-do.png" alt="Página principal To-Do List." hspace="20"/>
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="#" target="_blank">A fazer</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>###</a></p>
+                                   <h3 class="title"><a href="https://carlos-moreno.github.io/portfolio/" target="_blank">To-Do List</a></h3>
+                                   <p class="mb-2">Sistema To-Do List utilizando o framework Django e Python 3.</p>
+                                   <p><a class="more-link" href="https://github.com/carlos-moreno/to-do-list" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub do projeto</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+                            <div class="item row">
+                                <a class="col-md-4 col-12 " href="assets/images/projects/eventex.png" data-lightbox="Eventex" data-title="Eventex.">
+                                   <img class="example-image" style="width: 163.33px; height: 59.73px" src="assets/images/projects/eventex.png" alt="Página do evento." hspace="20"/>
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                   <h3 class="title">Eventex</a></h3>
+                                   <p class="mb-2">Sistema para gerenciamento de eventos desenvolvido durante o curso Welcome To The Django utilizando o framework Django e Python 3.</p>
+                                   <p><a class="more-link" href="https://github.com/carlos-moreno/eventex" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub do projeto</a></p>
                                 </div><!--//desc-->
                             </div><!--//item-->
 
@@ -270,5 +281,6 @@
     <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="assets/lightbox2-2.11.1/dist/js/lightbox.js"></script>
 </body>
 </html>
